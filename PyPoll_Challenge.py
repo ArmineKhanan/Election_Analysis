@@ -132,7 +132,3 @@ with open(file_to_save, "w") as txt_file:
     print(winning_county_summary)
     # Save the winning county's results to the text file.
     txt_file.write(winning_county_summary)
-
-
-
-
