@@ -1,10 +1,11 @@
 # Add our dependencies.
 import csv
 import os
+os.chdir(os.path.dirname(os.path.abspath(__file__))) # sets current directory
 # Assign a variable to load a file from a path.
-file_to_load = os.path.join("Desktop/Bootcamp/Election_Analysis", "election_results.csv")
+file_to_load = os.path.join("election_results.csv")
 # Assign a variable to save the file to a path.
-file_to_save = os.path.join("Desktop/Bootcamp/Election_Analysis", "election_analysis.txt")
+file_to_save = os.path.join("election_analysis.txt")
 # Initialize a total vote counter for Candidate Results.
 total_votes = 0
 # Candidate options and candidate votes.
@@ -22,7 +23,7 @@ with open(file_to_load) as election_data:
     # Print each row in the CSV file.
     for row in file_reader:
         # Add to the total vote count.
-        total_votes += 1
+        total_votes += 1 
         # Get the candidate name from each row.
         candidate_name = row[2]
         # If the candidate does not match any existing candidate, add the
@@ -132,3 +133,7 @@ with open(file_to_save, "w") as txt_file:
     print(winning_county_summary)
     # Save the winning county's results to the text file.
     txt_file.write(winning_county_summary)
+
+
+
+
