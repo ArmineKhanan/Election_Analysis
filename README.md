@@ -12,24 +12,25 @@ To deliver an effective audit we are going to leverage the following resources:
 * Software: The Command Line and Visual Studio
 
 ## Election Audit Results
-All the results of audit can be accessed via  [Go to the Support Web Site](https://github.com/ArmineKhanan/Election_Analysis/blob/main/election_analysis.txt)
+The election audit results can be found in [election_analysis.txt](https://github.com/ArmineKhanan/Election_Analysis/blob/main/election_analysis.txt) file.
 ### Candidates
-The first group of deliverables are the following which can be found in election_analysis.txt.
+The first group of deliverables, determining the winner, are the following: 
 * Total number of votes
 * A complete list of candidates who received votes
 * Total number of votes each candidate received
 * Percentage of votes each candidate won
 * The winner of the election based on popular vote
-
+369,711 citezens participate the election, and the overwhelming majority, 73.8% (272,892), voted for Diana DeGette.
 
 ### Turnout
-
+The second group of deliverables, called to assess the per-county turnover rate, are the following.
 * The voter turnout for each county
 * The percentage of votes from each county out of the total count
 * The county with the highest turnout
+In terms of turnout Denver is ahead of Arapahoe and Jefferson by a wide margin. Taking into account that the numbers of registered voters in Denver, Arapahoe and Jefferson are almost equal, 463,353, 422,829 and 432,438 respectively, it's safe to say that Denver populution has been more active in election as compare to other counties.
 
 ## Election Audit Summary
-Script reusability
+Script reusability, in case the data consists of a number for the ballot ID and a name for the county and candidate, respectively, is possible by simply changing the arguments for os.path.join() and os.path.join() methods.
 ```
 # Add our dependencies.
 import csv
@@ -45,4 +46,4 @@ file_to_load = os.path.join("election_results.csv")
 file_to_save = os.path.join("election_analysis.txt")
 
 ```
-The data consists of a number for the ballot ID and a name for the county and candidate, respectively. 
+Access the .py script file clicking the following link: [URL](https://github.com/ArmineKhanan/Election_Analysis/blob/main/PyPoll_Challenge.py)
