@@ -5,10 +5,22 @@ UC Berkeley BootCamp challenge 3 (Python)
 
 # Election Audit Results
 ## Candidates
+Total number of votes cast
+A complete list of candidates who received votes
+
+Total number of votes each candidate received
+
+Percentage of votes each candidate won
+
+The winner of the election based on popular vote
+
+
 ## Turnout
 
 The voter turnout for each county
+
 The percentage of votes from each county out of the total count
+
 The county with the highest turnout
 
 # Election Audit Summary
