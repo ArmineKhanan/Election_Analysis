@@ -26,9 +26,15 @@ The county with the highest turnout
 # Election Audit Summary
 Script reusability
 ```
+# Add our dependencies.
+import csv
+import os
+#Sets current directory
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 # Assign a variable to load a file from a path.
-file_to_load = os.path.join("Desktop/Bootcamp/Election_Analysis", "election_results.csv")
+file_to_load = os.path.join("election_results.csv")
 # Assign a variable to save the file to a path.
-file_to_save = os.path.join("Desktop/Bootcamp/Election_Analysis", "election_analysis.txt")
-# Initialize a total vote counter for Candidate Results.
+file_to_save = os.path.join("election_analysis.txt")
+
 ```
+The data consists of a number for the ballot ID and a name for the county and candidate, respectively. 
