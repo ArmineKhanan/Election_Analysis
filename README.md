@@ -2,11 +2,14 @@
 
 ## Overview of Election Audit
 ### Framework
-We are going to assist Colorado board of elections employee, Tom. The latter is trusted to deliver an election audit for a U.S. congressional precinct in Colorado. We will take into account three primary voting methods: mail-in ballots, punch cards, and direct recording electronic, or DRE, counting machines. After all the votes are counted, our job is to generate a vote count report to certify this U.S. congressional race. Moreover, to complete the audit we are tasked to also report on each county turnover rate.
-Tom's manager is interested in applying the solution to audit not only other congressional districts, but also senatorial districts and local elections,  and wants to know if there's a way to automate the process using Python.
+Tom is Colorado board of elections employee. The latter is trusted to deliver an election audit for a U.S. congressional precinct in Colorado. And we are going to assist him to successfully fulfill the requirements coming from his manager.
+
+After all the votes are counted, our job is to generate a vote count report to certify this U.S. congressional race. Moreover, to complete the audit we are tasked to also report on each county turnover rate. We will take into account three primary voting methods: mail-in ballots, punch cards, and direct recording electronic, or DRE, counting machines.
+
+Tom's manager is interested in applying the solution to audit not only other congressional districts, but also senatorial districts and local elections, and wants to know if there's a way to automate the process using Python.
 
 ### Resources
-To deliver an effective audit we are going to leverage the following resources:
+To complete an effective audit we are going to leverage the following resources:
 * Well-defined task requirements
 * Tabulated results of election 
 * Software: The Command Line and Visual Studio
