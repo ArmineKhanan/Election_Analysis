@@ -33,7 +33,7 @@ The second group of deliverables, called to assess the per-county turnover rate,
 In terms of turnout Denver is ahead of Arapahoe and Jefferson by a wide margin. Taking into account that the numbers of registered voters in Denver, Arapahoe, and Jefferson are almost equal, 463,353, 422,829, and 432,438 respectively, it's safe to say that Denver's population has been more active in elections as compared to other counties.
 
 ## Election Audit Summary
-Script reusability, in case the data consists of a number for the ballot ID and a name for the county and candidate, respectively, is possible by simply changing the arguments for os.path.join() and os.path.join() methods.
+As posted earlier, Tom's manager is interested in extending the solution application. Script reusability, in case the data consists of a number for the ballot ID and a name for the county and candidate, respectively, is possible by simply changing the arguments for os.path.join() and os.path.join() methods.
 ```
 # Add our dependencies.
 import csv
