@@ -1,10 +1,9 @@
-# Election_Analysis
-UC Berkeley BootCamp challenge 3 (Python)
+# Election Analysis
 
-# Overview of Election Audit
+## Overview of Election Audit
 
-# Election Audit Results
-## Candidates
+## Election Audit Results
+### Candidates
 Total number of votes cast
 A complete list of candidates who received votes
 
@@ -15,7 +14,7 @@ Percentage of votes each candidate won
 The winner of the election based on popular vote
 
 
-## Turnout
+### Turnout
 
 The voter turnout for each county
 
@@ -23,7 +22,7 @@ The percentage of votes from each county out of the total count
 
 The county with the highest turnout
 
-# Election Audit Summary
+## Election Audit Summary
 Script reusability
 ```
 # Add our dependencies.
